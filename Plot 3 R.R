@@ -17,7 +17,7 @@ if (!file.exists(data)) {
 #read files
 NEI = readRDS("summarySCC_PM25.rds")
 SCC = readRDS("Source_Classification_Code.rds")
-##ggplot2 (Hardely Wickham)
+##ggplot2 (Hardley Wickham)
 #subset NEI for Baltimore
 baltimore = subset(NEI, fips=="24510")
 
